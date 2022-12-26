@@ -9,11 +9,15 @@ environment:
 
 dependencies:
   envied:
-    path: ../../packages/envied
+    git:
+      url: https://github.com/yasinarik/envied
+      path: packages/envied
 
 dev_dependencies:
   build_runner: ^2.1.11
   lints: ^1.0.0
   test: ^1.16.0
   envied_generator:
-    path: ../../packages/envied_generator
+    git:
+      url: https://github.com/yasinarik/envied
+      path: packages/envied_generator
